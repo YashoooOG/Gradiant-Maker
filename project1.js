@@ -1,3 +1,4 @@
+// JavaScript code for a color gradient generator
 let btn1 = document.getElementById("buts1");
 let btn2 = document.getElementById("buts2");
 let copydiv = document.querySelector(".copycss");
