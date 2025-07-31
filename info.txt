@@ -1,0 +1,80 @@
+✅ 1️⃣ Linear Gradient
+👉 Direction Properties:
+
+to right (left → right)
+
+to left (right → left)
+
+to top (bottom → top)
+
+to bottom (top → bottom)
+
+to top right, to bottom left, etc.
+
+👉 Inner Properties:
+
+Multiple color stops (e.g. red 0%, blue 50%, green 100%)
+
+Angle (e.g. 45deg, 90deg)
+
+✅ 2️⃣ Radial Gradient
+👉 Shape Properties:
+
+circle
+
+ellipse
+
+👉 Position Properties:
+
+at center (default)
+
+at top, at bottom, at left, at right
+
+at top left, at bottom right, etc.
+
+👉 Inner Properties:
+
+Size keywords: closest-side, closest-corner, farthest-side, farthest-corner
+
+Multiple color stops
+
+✅ 3️⃣ Conic Gradient
+👉 Direction Properties:
+
+from 0deg (starting angle)
+
+from 90deg, from 180deg, etc.
+
+👉 Position Properties:
+
+at center (default)
+
+at top, at left, etc.
+
+👉 Inner Properties:
+
+Multiple color stops around the circle (like a pie chart)
+
+✅ 4️⃣ Diamond Gradient (variation of radial)
+👉 Direction/Shape Properties:
+
+Diamond shape radiating outward
+
+Can be centered at center, at top, etc.
+
+👉 Inner Properties:
+
+Multiple color stops
+
+Size can be controlled similarly to radial gradients
+
+✅ 5️⃣ Reflected Gradient
+👉 Direction Properties:
+
+Usually linear with symmetry: to right, to left, to top, to bottom
+
+👉 Inner Properties:
+
+The gradient mirrors itself around the center
+
+Uses multiple color stops in symmetric order

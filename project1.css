@@ -12,8 +12,8 @@ h1 {
     color: #333;
     margin: 5px 0;
     font-size: 3rem;
-    font-family:'Menlo', monospace;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-family: 'Menlo', monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     letter-spacing: 2px;
 }
 
@@ -26,7 +26,7 @@ p {
 .creategradiant {
     background-color: #d0d0d0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
     max-width: 80%;
     margin: 0 auto 10px auto;
@@ -36,7 +36,7 @@ p {
 
 .buttons {
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px;
@@ -45,19 +45,19 @@ p {
 
 .copycss {
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px;
 }
 
-.previewbox{
+.previewbox {
     background-color: white;
     border: 1px solid #000000;
     border-radius: 8px;
     padding: 10px;
     margin-top: 10px;
-    height:75%;
+    height: 80%;
     background-image: linear-gradient(to right, #7fff5f, #7b88fe);
 }
 
@@ -83,6 +83,12 @@ button {
     border-color: #7b88fe;
 }
 
+#buts3 {
+    display: none; 
+    color: #7fff5f;
+    border-color: #7fff5f;
+}
+
 .gradient-selector {
     background-color: transparent;
     color: black;
@@ -102,12 +108,12 @@ button {
     background-color: white;
     max-width: 80%;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
     margin: 10px auto;
     border-radius: 10px;
     padding: 15px;
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -116,16 +122,17 @@ button {
     body {
         padding: 10px;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
-    .creategradiant, .gradiantpreview {
+
+    .creategradiant,
+    .gradiantpreview {
         max-width: 95%;
         padding: 15px;
     }
-    
+
     button {
         padding: 10px 20px;
         font-size: 14px;
