@@ -83,9 +83,20 @@ button {
     border-color: #7b88fe;
 }
 
-/* button:hover {
-    background-color: rgba(0,0,0,0.1);
-} */
+.gradient-selector {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 40px;
+}
+
+
 
 .gradiantpreview {
     background-color: white;
